@@ -1,8 +1,9 @@
-import { FaLocationArrow } from 'react-icons/fa'
+
+import { FaHome } from 'react-icons/fa'
 import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
-import { TiArrowDownThick } from "react-icons/ti";
+
 
 const Hero = () => {
   return (
@@ -37,7 +38,7 @@ const Hero = () => {
                 <a href="#about">
                     <MagicButton 
                         title="Vedi il mio lavoro"
-                        icon={<TiArrowDownThick />}
+                        icon={<FaHome/>}
                         position='right'
                     />
                 </a>
