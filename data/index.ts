@@ -13,8 +13,8 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] overflow-hidden",
       imgClassName: "w-full ",
       titleClassName: "justify-end",
-      img: "./m1.jpg",
-      spareImg: "",
+      img: "",
+      spareImg: "./grid.svg",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export const navItems = [
       imgClassName: "",
       titleClassName: "justify-start",
       img: "",
-      spareImg: "",
+      spareImg: "./grid.svg",
     },
     {
       id: 3,

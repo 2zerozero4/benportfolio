@@ -6,7 +6,7 @@ const Grid = () => {
   return (
     <section id='about' className='overflow-visible'>
 
-      <h1 className='text-2xl text-white z-50 mb-3 '>
+      <h1 className='text-2xl text-white z-50 mb-3 font-bold '>
         About me
       </h1>
         

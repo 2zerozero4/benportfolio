@@ -1,4 +1,5 @@
 
+import { FaQuestion } from "react-icons/fa";
 import { FaHome } from 'react-icons/fa'
 import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
@@ -7,7 +8,7 @@ import { TextGenerateEffect } from './ui/text-generate-effect'
 
 const Hero = () => {
   return (
-    <div className='pb-80 pt-60'>
+    <div className='pb-24 pt-36'>
         <div>
             <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white' /> 
             <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='blue' /> 
@@ -30,15 +31,15 @@ const Hero = () => {
                     words='Portfolio Benjamin Pistocchi' 
                 />
                 
-                <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl'>
-                    Diploma tecnico informatico & aspirante graphc designer  
+                <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl  tracking-widest text-blue-100'>
+                    Tecnico Informatico & Graphic Designer  
                 </p>
                 
 
                 <a href="#about">
                     <MagicButton 
-                        title="Vedi il mio lavoro"
-                        icon={<FaHome/>}
+                        title="About me"
+                        icon={<FaQuestion />}
                         position='right'
                     />
                 </a>
