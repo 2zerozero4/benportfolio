@@ -24,7 +24,7 @@ export default function Example() {
               <p className="text-base font-semibold leading-7 text-white">Conoscimi meglio</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-white-100 sm:text-4xl">About Me</h1>
               <p className="mt-6 mb-0 text-xl leading-7 text-white">
-                Sono Benjamin Pistocchi, un giovane di 20 anni, appena diplomato all'Istituto
+                Sono Benjamin Pistocchi, un giovane di 20 anni, appena diplomato all&apos;Istituto
                 Tecnico Tecnologico Blaise Pascal di Cesena, specializzazione in Informatica.
               </p>
             </div>
