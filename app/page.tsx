@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/floating-navbar";
@@ -10,13 +11,15 @@ export default function Home() {
     flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav 
-          navItems={[
-            {name: 'Home', link: '/', icon: <FaHome/>}
+          navItems ={[
+            {name: 'Home', link: '/', icon: <FaHome/>},
+            {name: 'About Me', link: '#about', icon: <FaHome/>},
+            {name: 'I miei progetti', link: '/', icon: <FaHome/>}
           ]}
         />
         <Hero />
-        
-        <Grid />
+        <About />
+        {/*<Grid />*/}
       </div>
     </main>
   );
