@@ -4,6 +4,8 @@ import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
+import { FaSquarePen } from "react-icons/fa6";
+import { IoPerson } from "react-icons/io5";
 
 export default function Home() {
   return (
@@ -13,8 +15,8 @@ export default function Home() {
         <FloatingNav 
           navItems ={[
             {name: 'Home', link: '/', icon: <FaHome/>},
-            {name: 'About Me', link: '#about', icon: <FaHome/>},
-            {name: 'I miei progetti', link: '/', icon: <FaHome/>}
+            {name: 'About Me', link: '#about', icon: <IoPerson/>},
+            {name: 'I miei progetti', link: '/', icon: <FaSquarePen/>}
           ]}
         />
         <Hero />
