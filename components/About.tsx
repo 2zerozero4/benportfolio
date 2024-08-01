@@ -2,6 +2,7 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 import MagicButton from './ui/MagicButton'
 import { FaQuestion, FaRProject } from 'react-icons/fa'
 import { FaSquarePen } from 'react-icons/fa6'
+import Image from 'next/image';
 
 export default function Example() {
   return (
