@@ -1,7 +1,12 @@
 import About from "@/components/About";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+
+
 import { FloatingNav } from "@/components/ui/floating-navbar";
+
+
+
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
 import { FaSquarePen } from "react-icons/fa6";
@@ -19,6 +24,8 @@ export default function Home() {
             {name: 'I miei progetti', link: '/', icon: <FaSquarePen/>}
           ]}
         />
+        
+        
         <Hero />
         <About />
         <Grid />

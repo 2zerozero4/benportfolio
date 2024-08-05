@@ -4,7 +4,7 @@ import { gridItems } from '@/data'
 
 const Grid = () => {
   return (
-    <section  className='overflow-visible'>
+    <section  className='overflow-visible mt-20'>
 
       
         
